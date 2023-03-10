@@ -1,0 +1,320 @@
+* {
+	font-family: Roboto, serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+hr {
+	height:2px;
+	border-width:0;
+	color:gray;
+	background-color:#e9e9e9
+}
+
+/* 
+margin: 15px 7.5px 15px 7.5px;
+*/
+
+body {
+	margin: 0;
+	background: #e8eaed;
+}
+
+header {
+	display: flex;
+	align-items: center;
+	background: #4277a5;
+	color: #ffffff;
+	align-content: space-between;
+	padding: 8px;
+}
+
+.topbar {
+	display: flex;
+	margin: 0 auto;
+	width: 1155px;
+}
+
+.logo a {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 30px;
+}
+
+.input-icons {
+	width: 200px;
+	color: #667076;
+	margin-left: 150px;
+}
+
+.input-icons i {
+	position: absolute;
+	padding: 7px 10px 8px 12px;
+}
+
+.input-field {
+	width: 100%;
+	padding: 8px 0 8px 35px;
+	text-align: left;
+	margin-bottom: 3px;
+	border-radius: 200px;
+	background: #2c4869;
+	border: 0;
+	color: #fff;
+}
+
+.body {
+	display: flex;
+	margin: 0 auto;
+	width: 1155px;
+}
+
+.navbar {
+	margin: 15px;
+	width: 160px;
+}
+
+.navbar a {
+	display: flex;
+	flex-direction: column;
+	color: #00003e;
+	font-weight: 100;
+	padding: 10px;
+	line-height: 15px;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+
+.navbar a:hover {
+	background: #dcdfe2;
+	text-decoration: none;
+}
+
+.center-side {
+	width: 305px;
+}
+
+.prof-img {
+	display: flex;
+	flex-direction: column;
+	padding: 15px;
+	margin: 15px 7.5px 15px 7.5px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.prof-img img {
+	cursor: pointer;
+}
+
+.prof-img input {
+	padding: 10px;
+	margin-top: 15px;
+	text-align: center;
+	background: #e8eaed;
+	color: #00003e;
+	border: 0;
+	border-radius: 3px;
+	font-weight: 100;
+	transition: 0.3s;
+}
+
+.prof-img input:hover {
+	background: #dcdfe2;
+	cursor: pointer;
+}
+
+.friends {
+	padding: 15px;
+	margin: 15px 7.5px 15px 7.5px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.friends>a {
+	color: #00003e;
+	font-weight: 200;
+	margin: 10px auto 10px 0;
+	padding: 0;
+}
+
+.friends img {
+	width: 50px;
+	border-radius: 100%;
+}
+
+.friend-list {
+	margin: 15px 5px 0 5px;
+	width: 230px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.friend {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 10px;
+	transition: 0.3s;
+	border-radius: 3px;
+}
+
+.friend:hover {
+	background: #e8eaed;
+}
+
+.friend a {
+	font-size: 12px;
+	font-weight: 100;
+	color: #00003e;
+}
+
+.right-side {
+	width: 660px;
+}
+
+.profile-info {
+	padding: 15px;
+	margin: 15px 7.5px 15px 7.5px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.prof-top-info {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.name {
+	line-height: 25px;
+}
+
+.desc {
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.is-online {
+	display: flex;
+	align-items: flex-start;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.prof-info {
+	display: flex;
+	font-size: 14px;
+	font-weight: 200;
+	color: #00003e;
+}
+
+.value {
+	font-weight: 300;
+	color: #2a5885;
+	margin-left: 50px;
+}
+
+.value a {
+	color: #2a5885;
+}
+
+.other-info {
+	margin: 0 auto;
+}
+
+.other-info th {
+	font-size: 16px;
+	font-weight: 400;
+	color: #00003e;
+}
+
+.other-info td {
+	font-size: 12;
+	font-weight: 200;
+	color: #00003e;
+}
+
+.other-info a {
+	color: #000;
+}
+
+.profile-photo {
+	padding: 15px;
+	margin: 15px 7.5px 15px 7.5px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.profile-photo a {
+	font-weight: 300;
+	font-size: 14px;
+	color: #00003e;
+}
+
+.photos {
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.photos img {
+	height: 135px;
+}
+
+.news-block {
+	padding: 15px;
+	margin: 15px 7.5px 15px 7.5px;
+	background: #fff;
+	border-radius: 5px;
+}
+
+.news-profile {
+	display: flex;
+	align-items: center;
+}
+
+.news-prof-img img {
+	width: 50px;
+	border-radius: 100%;	
+}
+
+.news-prof-name {
+	margin-left: 20px;
+	display: flex;
+	flex-direction: column;
+	line-height: 20px;
+}
+
+.news-prof-name a {
+	font-weight: 700;
+	font-size: 14px;
+	color: #00003e;
+}
+
+.time {
+	font-weight: 300;
+	font-size: 12px;
+	color: #909aa5;
+}
+
+.time:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.publication p {
+	font-weight: 300;
+	font-size: 14px;
+	color: #000;
+	line-height: 25px;
+}
